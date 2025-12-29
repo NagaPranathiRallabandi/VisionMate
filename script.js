@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
     let isFlashOn = false;
     
     // ⚠️ IMPORTANT: Paste your actual API key here!
-    const API_KEY = "AIzaSyD6bXgBjkl_uRaH5vrVYjciwxdj6FO0F50";
+    const API_KEY = "AIzaSyBnFF3J9aJwGacTf92261qNM4PLuyx4Sq0";
     
     // Initialize the Generative AI client
     const genAI = new GoogleGenerativeAI(API_KEY);
