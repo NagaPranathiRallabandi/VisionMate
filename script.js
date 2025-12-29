@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
     
     // Initialize the Generative AI client
     const genAI = new GoogleGenerativeAI(API_KEY);
-    const geminiModel = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
+    const geminiModel = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
     
     // --- Setup Functions ---
     startCamera();
